@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: phamhoangkha1403/test-app-165-service:bf04b2de79c9699bd657b614ae1507598bee0f76@sha256:a7b3cba016444143ccaeed61d5c8ec690e470089f7f73d9fa1793cdda3461012
+          image: phamhoangkha1403/test-app-165-service:96ffeb0a378cd1c98410d0ffa78fc19f49320918@sha256:4960dc023c453fd82ae85afc6bf745f054a51a6d9e07ab07cccd0b380d75880b
           ports:
             - containerPort: 0
