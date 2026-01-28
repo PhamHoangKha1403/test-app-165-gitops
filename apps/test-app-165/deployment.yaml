@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-app-165
+spec:
+  replicas: 0
+  selector:
+    matchLabels:
+      app: test-app-165
+  template:
+    metadata:
+      labels:
+        app: test-app-165
+    spec:
+      containers:
+        - name: app
+          image: phamhoangkha1403/test-app-165-service:@sha256:aa8cf44c534d05f15b8dde70ed377c2daff3a502ca6184e9dad71302ff5c9840
+          ports:
+            - containerPort: 0
